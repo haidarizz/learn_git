@@ -1,11 +1,9 @@
 n = int(input("Enter a number: "))
+a, b = 1, 1
+fib = []
 
-if n <= 0:
-    print([])
-elif n == 1:
-    print([1])
-else:
-    fib = [1, 1]
-    for i in range(2, n):
-        fib.append(fib[i-1] + fib[i-2])
-    print(fib)
+for i in range(n):
+    fib.append(a)
+    a, b = b, a+b
+
+print(fib)
