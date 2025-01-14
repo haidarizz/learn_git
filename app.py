@@ -1,1 +1,1 @@
-print("hello manusia")
+print("haidar izzuddin")
