@@ -1,1 +1,1 @@
-print("kursi lipat")
+print("haidar izzuddin")
